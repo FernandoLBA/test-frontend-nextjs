@@ -16,21 +16,42 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+El objetivo es desarrollar un SPA que tiene 3 tipos de vista definidas en el siguiente prototipo: https://www.figma.com/file/i1OsJbAApraN9W97rSnq9z/Online-Course-Dashboard-UI-Kit?type=design&node-id=1%3A3&mode=design&t=EXzxgCI0AnyQ8r3y-1
 
-## Learn More
+* En la ruta {localhost}/explora se debe ver la página que en figma esta nombrada como Light - Online Course Searching Course
+* La ruta {localhost}/ debe redirigir a {localhost}/explora
+crear componente error.tsx de acuerdo a las convenciones de next js para app routing: https://nextjs.org/docs/app/api-reference/file-conventions. debe verse como la página Light - page not found, del figma.
+* la ruta {localhost}/error-forzado es un componente que renderiza un span que dice 'soy un error forzado' que no debe alcanzarse a visualizar ya que que solo que genere un error intencional que haga que next js renderize el componente error.tsx
+crear componente not-found.tsx de acuerdo a las convenciones de next js para app routing: https://nextjs.org/docs/app/api-reference/file-conventions. debe verse como la página Light - internal server error, del figma.
+* Toda ruta diferente a las que se han indicado previamente deben renderizar not-found.tsx
 
-To learn more about Next.js, take a look at the following resources:
+Requerimientos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Tener la navegación completa con todas las rotas previamente definidas.
+* Desarrollar el responsive, configuraciones de color, tipografía y espaciados con tailwind, con los breakpoints que tiene por defecto.
+* Maquetar un layout para que el menú lateral y superior aparezcan en todas las páginas.
+* El responsive de mobile es el mismo que web pero sin los títulos en los menús y tiene grillas de máximo dos columnas.
+* Ninguno de los botones, íconos, o menùs tiene tiene funcionalidades.
+* Indicar a continuación la cantidad de horas que demoró haciendo la prueba -> // n horas
+* La página donde se listan los productos (/explora) debe cargar primero la parte asíncrona mientras se hace un streaming de los productos durante el tiempo que tarde en resolverse la promesa de la función getAllProducts. Entonces durante el tiempo de la resolución de la promesa se debe renderizar el componente loading.tsx de acuerdo a las convenciones de next js para app routing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Criterios de evaluación
+* Cumplir con los requerimientos.
+* Fidelidad del desarrollo con el prototipo y que sea responsive.
+* Todo debe estar debidamente tipado, los any implícitos o tipar con any afectarán la evaluación.
+* Componentes de responsabilidad única, un codigo que se lea por si mismo sin necesidad de comentarios y que no halla duplicidad de código.
 
-## Deploy on Vercel
+Extra
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Usar imágenes en los productos en vez de un cuadro de color blanco.
+* Proponer interacciones que aporten a la experiencia de usuario, pero que no afecten el performance y la fidelidad del prototipo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Que se evalúa el candidato seleccionado
+
+* Bajo 2 criterios:
+
+1. Calidad de código y cumplimiento del requerimiento
+2. Capacidad (c): La proporción entre el tiempo de disponibilidad diaria (d) y el tiempo que duró desarrollando la prueba (t), c = d/t
+Por ejemplo si tengo menos experiencia y por mi curva de aprendizaje me demoro 4 horas en hacer esta prueba pero tengo una disponibilidad de 8 horas diarias,
+mi capacidad es de 8/4 = 2, por lo que ni curva de aprendizaje es compensada por mi disponibilidad. Por otra parte puede haber alguien muy experimentado que tarda 2 horas pero con baja baja disponibilidad diaria de 2 horas, entonces la capacidad es 2/2 = 1, menor de quien tiene menos experiencia.
