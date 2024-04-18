@@ -33,8 +33,9 @@ Requerimientos.
 * Maquetar un layout para que el menú lateral y superior aparezcan en todas las páginas.
 * El responsive de mobile es el mismo que web pero sin los títulos en los menús y tiene grillas de máximo dos columnas.
 * Ninguno de los botones, íconos, o menùs tiene tiene funcionalidades.
-* Indicar a continuación la cantidad de horas que demoró haciendo la prueba -> // n horas
 * La página donde se listan los productos (/explora) debe cargar primero la parte asíncrona mientras se hace un streaming de los productos durante el tiempo que tarde en resolverse la promesa de la función getAllProducts. Entonces durante el tiempo de la resolución de la promesa se debe renderizar el componente loading.tsx de acuerdo a las convenciones de next js para app routing.
+* Indicar tiempo de resolución (t): A continuación ponga la cantidad de horas que demoró haciendo la prueba -> // n horas
+* Indicar disponibilidad semanal (d): Ponga a continuación la cantidad de horas semanales aproximadas de disponibilidad semanal -> // n horas semanales
 
 Criterios de evaluación
 * Cumplir con los requerimientos.
