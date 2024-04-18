@@ -28,7 +28,7 @@ crear componente not-found.tsx de acuerdo a las convenciones de next js para app
 
 Requerimientos.
 
-* Tener la navegación completa con todas las rotas previamente definidas.
+* Tener la navegación completa con todas las rutas previamente definidas.
 * Desarrollar el responsive, configuraciones de color, tipografía y espaciados con tailwind, con los breakpoints que tiene por defecto.
 * Maquetar un layout para que el menú lateral y superior aparezcan en todas las páginas.
 * El responsive de mobile es el mismo que web pero sin los títulos en los menús y tiene grillas de máximo dos columnas.
