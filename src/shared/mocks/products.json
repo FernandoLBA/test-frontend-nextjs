@@ -3,6 +3,7 @@
       "id": "1",
       "title": "Producto 1",
       "vendor": "Proveedor A",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
       "ratings": [
         {
           "id": "1",
@@ -22,6 +23,7 @@
       "id": "2",
       "title": "Producto 2",
       "vendor": "Proveedor B",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
       "ratings": [
         {
           "id": "3",
@@ -41,6 +43,7 @@
       "id": "3",
       "title": "Producto 3",
       "vendor": "Proveedor C",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
       "ratings": [
         {
           "id": "5",
@@ -60,6 +63,7 @@
       "id": "4",
       "title": "Producto 4",
       "vendor": "Proveedor D",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
       "ratings": [
         {
           "id": "7",
@@ -79,6 +83,7 @@
       "id": "5",
       "title": "Producto 5",
       "vendor": "Proveedor E",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
       "ratings": [
         {
           "id": "9",
@@ -98,6 +103,7 @@
       "id": "6",
       "title": "Producto 6",
       "vendor": "Proveedor F",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
       "ratings": [
         {
           "id": "11",
@@ -117,6 +123,7 @@
       "id": "7",
       "title": "Producto 7",
       "vendor": "Proveedor G",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
       "ratings": [
         {
           "id": "13",
@@ -136,6 +143,7 @@
       "id": "8",
       "title": "Producto 8",
       "vendor": "Proveedor H",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
       "ratings": [
         {
           "id": "15",

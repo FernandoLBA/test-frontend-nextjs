@@ -16,9 +16,12 @@ export default function PagesLayout({
   buttonPath = "",
 }: Props) {
   return (
-    <div className="flex justify-center items-center flex-col h-full w-full">
-      <h1 className="text-6xl">{title}</h1>
-      <p className="mt-2 text-gray-400">{subtitle}</p>
+    <div
+      className="flex justify-center items-center flex-col w-full h-screen"
+      style={{ height: "calc(100vh - 80px)" }}
+    >
+      <h1 className="text-3xl sm:text-6xl text-center">{title}</h1>
+      <p className="text-xs sm:text-lg mt-2 mx-6 text-center text-gray-400">{subtitle}</p>
 
       <Button
         buttonText={buttonText.trim()}

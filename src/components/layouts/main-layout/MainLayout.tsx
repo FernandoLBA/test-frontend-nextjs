@@ -12,7 +12,9 @@ export default function MainLayout({
       <div className="flex">
         <Sidebar />
 
-        <div className="w-full">{children}</div>
+        <div className="w-full ml-20 mt-20 sm:ml-64" >
+          {children}
+        </div>
       </div>
     </section>
   );

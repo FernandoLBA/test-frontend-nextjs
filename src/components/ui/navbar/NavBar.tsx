@@ -2,8 +2,8 @@ import { Bell, Heart } from "@/shared/icons";
 
 const NavBar = () => {
   return (
-    <div className="relative w-full h-20 bg-white z-10">
-      <nav className="flex items-center justify-between h-full sm:px-12 shadow-lg">
+    <div className="fixed w-full h-20 bg-white z-10">
+      <nav className="px-6 flex items-center justify-between h-full sm:px-12 shadow-lg">
         <div className="flex lg:flex-1">
           <div className="flex justify-between items-center">
             {/* logo */}
@@ -21,7 +21,7 @@ const NavBar = () => {
         {/* Menu */}
         <div className="flex items-center justify-between w-80 h-20">
           {/* iconos */}
-          <div className="flex justify-evenly h-full w-28 items-center">
+          <div className="hidden sm:flex justify-evenly h-full w-28 items-center">
             <div className="flex items-center justify-center h-7 w-7 mr-3">
               <Heart />
             </div>
@@ -31,7 +31,7 @@ const NavBar = () => {
           </div>
 
           {/* usuario */}
-          <div className="flex justify-between h-full items-center">
+          <div className="hidden sm:flex justify-between h-full items-center">
             {/* circulo */}
             <div className="flex items-center justify-end  w-2/4 h-full">
               <div className="rounded-full bg-gray-300 h-10 w-10 mr-2" />

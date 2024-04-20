@@ -6,7 +6,7 @@ type Props = {
 
 const Button = ({ buttonText, buttonClasses = "", buttonPath = "" }: Props) => {
   return (
-    <div className={`bg-indigo-700 rounded-md py-2 px-5 ${buttonClasses}`}>
+    <div className={`indigo-bg rounded-md py-3 px-5 ${buttonClasses}`}>
       <a href={buttonPath}>
         <span className="text-white">{buttonText}</span>
       </a>

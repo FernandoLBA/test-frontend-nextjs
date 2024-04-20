@@ -1,10 +1,8 @@
-import { Error } from "@/components/ui";
+"use client";
 
 export default function ErrorForzado() {
-  return (
-    <Error
-      title="Soy un error forzado"
-      subtitle="Estamos trabajando en resolverlo pronto, disculpe las molestias"
-    />
-  );
+  const error: string = "Soy un error forzado";
+
+  // * Fuerza un error
+  if (true) throw new Error(error);
 }

@@ -1,9 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 import { Button, CardList, Loading } from "@/components/ui";
 import { IProduct } from "@/models";
+import { Look } from "@/shared/icons";
 import { getAllProducts } from "@/shared/services/products";
-import { useEffect, useState } from "react";
 
 export default function Explora({
   params,
@@ -26,7 +28,7 @@ export default function Explora({
 
   return (
     <div className="p-6">
-      <div className="rounded-md bg-gray-300 px-7 py-14">
+      <div className="rounded-md grey-bg px-7 py-14">
         <div className="flex justify-center items-start flex-col h-full w-full">
           <h1 className="text-6xl">El éxito está en el hábito</h1>
           <p className="mt-2 text-gray-400">
@@ -38,7 +40,9 @@ export default function Explora({
       </div>
 
       <div className="flex rounded-md bg-white p-4 my-5">
-        <i className="mr-3">icon</i>
+        <i className="mr-3">
+          <Look />
+        </i>
         <span>UI UX Design</span>
       </div>
 

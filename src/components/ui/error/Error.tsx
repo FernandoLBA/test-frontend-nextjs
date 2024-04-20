@@ -4,12 +4,13 @@ import { appRoutes } from "@/constants";
 type Props = {
   title?: string;
   subtitle?: string;
+  buttonText?: string;
 };
 
-export default function Error({ title = "", subtitle = "" }: Props) {
+export default function Error({ title = "", subtitle = "", buttonText = "Volver" }: Props) {
   return (
     <PagesLayout
-      buttonText="Volver"
+      buttonText={buttonText}
       subtitle={subtitle}
       title={title}
       buttonClasses="mt-7"
