@@ -34,8 +34,8 @@ Requerimientos.
 * El responsive de mobile es el mismo que web pero sin los títulos en los menús y tiene grillas de máximo dos columnas.
 * Ninguno de los botones, íconos, o menùs tiene tiene funcionalidades.
 * La página donde se listan los productos (/explora) debe cargar primero la parte asíncrona mientras se hace un streaming de los productos durante el tiempo que tarde en resolverse la promesa de la función getAllProducts. Entonces durante el tiempo de la resolución de la promesa se debe renderizar el componente loading.tsx de acuerdo a las convenciones de next js para app routing.
-* Indicar tiempo de resolución (t): A continuación ponga la cantidad de horas que demoró haciendo la prueba -> // 7 horas
-* Indicar disponibilidad semanal (d): Ponga a continuación la cantidad de horas semanales aproximadas de disponibilidad semanal -> // 25 horas semanales
+* Indicar tiempo de resolución (t): A continuación ponga la cantidad de horas que demoró haciendo la prueba -> 8 horas.
+* Indicar disponibilidad semanal (d): Ponga a continuación la cantidad de horas semanales aproximadas de disponibilidad semanal -> mínimo: 25 horas, maxímo: 35 horas semanales
 
 Criterios de evaluación
 * Cumplir con los requerimientos.
